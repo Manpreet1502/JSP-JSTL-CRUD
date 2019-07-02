@@ -1,0 +1,118 @@
+/* @charset "ISO-8859-1";
+ */
+.main{
+background-color: #189ad3;
+color: #fff;
+text-align: center;
+min-height: 100vh;	
+width:100%;
+}
+
+form {
+	padding: 10px;
+}
+
+.center-block{
+position: absolute	;
+top: 50%;
+left:50%;
+transform: translate(-50%, -50%);
+font-size: 20px;
+}
+
+input[name="submit"]{
+	  background-color: lightgrey;
+	  border: none;
+	  color: #005073;
+	  padding: 16px 32px;
+	  text-align: center;
+	  font-size: 16px;
+	  margin: 4px 2px;		 
+	  transition: 0.3s;
+	  display: inline-block;
+	  text-decoration: none;
+	  cursor: pointer;
+	  border-radius: 2px;
+}
+
+h1{
+	color: white;
+}
+
+input[type=text], input[type=password], select, input[type=date]{
+  width: 100%;
+  padding: 5px 5px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  max-width: 400px;
+}
+
+a:link, a:visited {
+  background-color: lightgrey;
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+width: 300px;
+}
+
+a:hover, a:active {
+  background-color: darkgrey;
+
+}
+
+table {
+  border-collapse: collapse;
+   width: 90%;
+   margin: 0 auto;
+   
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  font-size: 20px;
+}
+
+tr:nth-child(even){background-color: #107dac;
+					color: white;
+					}
+					
+tr:nth-child(odd){background-color: #71c7ec;
+					color: black;
+					}
+
+th {
+  background-color: #005073;
+  color: white;
+}
+
+.updateLink:link{
+	width: 50px;
+}
+
+input[type=text].search-text {
+	width: 250px;
+}
+
+.menuItem:link {
+	width: 220px;
+}
+.menu {
+	text-align: center;
+	padding-top: 5px;
+}
+
+
+header{
+   color:#ccc; 
+   font-size:25px; 
+   text-align:left; 
+   background-color:#04405b; 
+   height:20px; 
+   padding:20px
+}
